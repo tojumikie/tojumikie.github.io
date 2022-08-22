@@ -1,6 +1,7 @@
 /* @font-face */
 @font-face {
     font-family: "NanumGothicCoding";
-    src: '../fonts/Nanum_Gothic_Coding/NanumGothicCoding-Regular.ttf';
+    /* src: '../fonts/Nanum_Gothic_Coding/NanumGothicCoding-Regular.ttf'; */
+    src: url('../fonts/Nanum_Gothic_Coding/NanumGothicCoding-Regular.ttf');
 
 }

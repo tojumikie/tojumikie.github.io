@@ -3,6 +3,6 @@
     font-family: "Overpass Mono";
     /* src: '../fonts/Nanum_Gothic_Coding/NanumGothicCoding-Regular.ttf'; */
     /* src: url('../fonts/Nanum_Gothic_Coding/NanumGothicCoding-Regular.ttf'); */
-    src: url(../fonts/Overpass_Mono/OverpassMono-Regular.ttf) format('opentype');
+    src: url(../fonts/Overpass_Mono/OverpassMono-Regular.ttf);
 
 }

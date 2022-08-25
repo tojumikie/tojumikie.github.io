@@ -1,0 +1,8 @@
+.title-text {
+    /* font: normal bold 50px/72 Arial; */
+    font-style: normal;
+    /* font-weight: ; */
+    font-family: var(--overpass);
+    font-weight: 700;
+
+}

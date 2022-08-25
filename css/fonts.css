@@ -3,6 +3,5 @@
     font-family: "Overpass Mono";
     /* src: '../fonts/Nanum_Gothic_Coding/NanumGothicCoding-Regular.ttf'; */
     /* src: url('../fonts/Nanum_Gothic_Coding/NanumGothicCoding-Regular.ttf'); */
-    src: url("../tojumikie.github.io/OverpassMono-Regular.ttf") format('truetype');
-
+    src: url("OverpassMono-Regular.ttf") format('truetype');
 }

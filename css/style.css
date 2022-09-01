@@ -75,3 +75,13 @@
 
 
 /* End Banner area */
+/* Start About Area */
+.site-main .about-area {
+    padding: 1rem 1rem;
+}
+.site-main .about-area .about-title h2 > span {
+    /* display: block; */
+    font: normal bold 49px/60px var(--overpass);
+
+}
+/* End About Area */

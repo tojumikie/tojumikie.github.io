@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toju Mikie's Website</title>
 
+    <!-- Magnific Popup css file -->
+    <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
     <!-- Bootstrap CSS file-->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <!-- fontawesome icons -->
@@ -58,56 +60,332 @@
 
     <!-- ############################## Start Main Area ############################## -->
     <main class="site-main">
-        <!-- ############################## Start Banner Area ############################ -->
-        <section class="site-banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 site-title">
-                        <h3 class="title-text text-uppercase">Hello!</h3>
-                        <h1 class="title-text">Welcome to my Website!</h1>
-                        <h4 class="title-text">Hosted on Github Pages</h4>
-                        <div class="site-buttons">
-                            <div class="d-flex flex-row flex-wrap">
-                                <button type="button" class="btn button primary-button mr-4">Click here to download my résumé</button>
-                                <button type="button" class="btn button secondary-button">dummy button</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 banner-image">
-                        <img src="./img/myself.JPG" alt="self-portrait" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ############################## End Banner Area ############################## -->
-        <!-- ######################### Start About Area ################################## -->
-        <section class="about-area">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-lg-6 col-md-12 d-flex align-items-center justify-content-center">
-                <div class="about-image w-75">
-                  <img src="./img/workstation.JPG" alt="About us" class="img-fluid">
+      <!-- ############################## Start Banner Area ############################ -->
+      <section class="site-banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 site-title">
+              <h3 class="title-text text-uppercase">Hello!</h3>
+              <h1 class="title-text">Welcome to my Website!</h1>
+              <h4 class="title-text">Hosted on Github Pages</h4>
+              <div class="site-buttons">
+                <div class="d-flex flex-row flex-wrap">
+                  <button type="button" class="btn button primary-button mr-4">Click here to download my résumé</button>
+                  <button type="button" class="btn button secondary-button">dummy button</button>
                 </div>
               </div>
-              <div class="col-lg-6 col-md-12 about-title">
-                <h2 class="pt-5">
-                  <span>Let me introduce myself</span>
-                  <!-- <span>introduce</span>
-                  <span>myself</span> -->
-                </h2>
-                <div class="paragraph py-4 w-75">
-                  <p class="para">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit doloribus sit sed, iusto sunt eligendi odit accusamus accusantium tempora modi.
-                  </p>
-                  <p class="para">Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                  </p>
+            </div>
+            <div class="col-lg-6 col-md-12 banner-image">
+              <img src="./img/myself.JPG" alt="self-portrait" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ############################## End Banner Area ############################## -->
+      <!-- ######################### Start About Area ################################## -->
+      <section class="about-area">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 d-flex align-items-center justify-content-center">
+              <div class="about-image w-75">
+                <img src="./img/workstation.JPG" alt="About us" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 about-title">
+              <h2 class="pt-5">
+                <span>Let me introduce myself</span>
+                <!-- <span>introduce</span>
+                      <span>myself</span> -->
+              </h2>
+              <div class="paragraph py-4 w-75">
+                <p class="para">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit doloribus sit sed, iusto sunt eligendi odit
+                  accusamus accusantium tempora modi.
+                </p>
+                <p class="para">Why do we use it? It is a long established fact that a reader will be distracted by the
+                  readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                  more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it
+                  look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as
+                  their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
+                  infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose
+                  (injected humour and the like).
+                </p>
+              </div>
+              <button type="button" class="btn button primary-button">Download my résumé</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ########################  End About Area #################################### -->
+      <!-- ################################## Start Brand Area ######################### -->
+      <section class="brand-area">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xl-6 col-lg-12 col-md-12">
+              <div class="first-row row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="single-brand">
+                    <img src="./img/brands/logo1.png" alt="Brand-1">
+                  </div>
                 </div>
-                <button type="button" class="btn button primary-button">Download my résumé</button>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="single-brand">
+                    <img src="./img/brands/logo2.png" alt="Brand-2">
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="single-brand">
+                    <img src="./img/brands/logo3.png" alt="Brand-3">
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="single-brand">
+                    <img src="./img/brands/logo4.png" alt="Brand-4">
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="single-brand">
+                    <img src="./img/brands/logo5.png" alt="Brand-5">
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="single-brand">
+                    <img src="./img/brands/logo6.png" alt="Brand-6">
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="single-brand">
+                    <img src="./img/brands/logo7.png" alt="Brand-7">
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="single-brand">
+                    <img src="./img/brands/logo8.png" alt="Brand-8">
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="single-brand">
+                    <img src="./img/brands/logo9.png" alt="Brand-9">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-12 col-md-12">
+              <div class="experience-area">
+                <div class="d-flex flex-row years-area">
+                  <h2 class="p-3 years">9</h2>
+                  <h2>
+                    <span>Years</span>
+                    <span>Experience</span>
+                    <span>Working</span>
+                  </h2>
+                </div>
+                <div class="d-flex flex-row flex-wrap call-area">
+                  <span><i class="fa-solid fa-phone fa-3x px-3"></i></span>
+                  <div class="call-now">
+                    <a href="#" class="text-uppercase h4 font-overpass">Call Now</a>
+                    <span class="font-overpass py-2">(+1)000-000-0000</span>
+                  </div>
+                </div>
+                <div class="bg-panel">
+                  <!-- <p>test</p> -->
+                </div>
               </div>
             </div>
           </div>
-        </section>
-        <!-- ########################  End About Area #################################### -->
+        </div>
+      </section>
+      <!-- ########################### End Brand Area ################################## -->
+      <!-- ########################## Start Services Area ############################## -->
+      <section class="services-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center services-title">
+              <h1 class="text-uppercase title-text">Services Offered</h1>
+              <p class="para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, labore delectus! Totam neque architecto aliquid impedit voluptate corporis reprehenderit, quis ratione maiores similique! Commodi hic, iure magni perferendis velit possimus!
+              </p>
+            </div>
+          </div>
+          <div class="container services-list">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="services">
+                  <div class="services-img text-center py-4">
+                    <img src="./img/services/s1.png" alt="Services-1">
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title text-uppercase font-overpass">WP developer</h5>
+                    <p class="card-text text-secondary">
+                      Lorem, ipsum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="services">
+                  <div class="services-img text-center py-4">
+                    <img src="./img/services/s2.png" alt="Services-2">
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title text-uppercase font-overpass">ux/ui design</h5>
+                    <p class="card-text text-secondary">
+                      Lorem, ipsum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="services">
+                  <div class="services-img text-center py-4">
+                    <img src="./img/services/s3.png" alt="Services-3">
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title text-uppercase font-overpass">web design</h5>
+                    <p class="card-text text-secondary">
+                      Lorem, ipsum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="services">
+                  <div class="services-img text-center py-4">
+                    <img src="./img/services/s4.png" alt="Services-4">
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title text-uppercase font-overpass">seo optimize</h5>
+                    <p class="card-text text-secondary">
+                      Lorem, ipsum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ############################# End Services Area ############################# -->
+      <!-- ##################### Start Project Section ################################# -->
+      <section class="project-area">
+        <div class="container">
+          <div class="project-title pb-5">
+            <h1 class="text-uppercase title-h1">Recently Done Projects</h1>
+            <h1 class="text-uppercase title-h1">Quality Work</h1>
+          </div>
+          <div class="button-group">
+            <button type="button" class="active" id="btn1" data-filter="*">All</button>
+            <button type="button" data-filter=".popular">Popular</button>
+            <button type="button" data-filter=".latest">Latest</button>
+            <button type="button" data-filter=".following">Following</button>
+            <button type="button" data-filter=".upcoming">Upcoming</button>
+          </div>
+          <div class="row grid">
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+              <div class="our-project">
+                <div class="img">
+                  <a class="test-popup-link" href="./img/portfolio/p1.jpg">
+                    <img src="./img/portfolio/p1.jpg" alt="portfolio-1">
+                  </a>
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Minimal Design</h4>
+                  <span class="text-secondary">Latest, Portfolio</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+              <div class="our-project">
+                <div class="img">
+                  <img src="./img/portfolio/p2.jpg" alt="portfolio-2">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Paint Wall</h4>
+                  <span class="text-secondary">Popular, Portfolio</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+              <div class="our-project">
+                <div class="img">
+                  <img src="./img/portfolio/p3.jpg" alt="portfolio-3">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Female Light</h4>
+                  <span class="text-secondary">Popular, Portfolio</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+              <div class="our-project">
+                <div class="img">
+                  <img src="./img/portfolio/p4.jpg" alt="portfolio-4">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Fourth Air</h4>
+                  <span class="text-secondary">Upcoming, Portfolio</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+              <div class="our-project">
+                <div class="img">
+                  <img src="./img/portfolio/p5.jpg" alt="portfolio-5">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Multiple font</h4>
+                  <span class="text-secondary">Upcoming, Portfolio</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+              <div class="our-project">
+                <div class="img">
+                  <img src="./img/portfolio/p6.jpg" alt="portfolio-6">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Together sign</h4>
+                  <span class="text-secondary">Following, Portfolio</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+              <div class="our-project">
+                <div class="img">
+                  <img src="./img/portfolio/p7.jpg" alt="portfolio-7">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Green Heaven</h4>
+                  <span class="text-secondary">Upcoming, Portfolio</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+              <div class="our-project">
+                <div class="img">
+                  <img src="./img/portfolio/p8.jpg" alt="portfolio-8">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">fly male</h4>
+                  <span class="text-secondary">Upcoming, Portfolio</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+              <div class="our-project">
+                <div class="img">
+                  <img src="./img/portfolio/p9.jpg" alt="portfolio-9">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Camera Lens</h4>
+                  <span class="text-secondary">Upcoming, Portfolio</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ####################### End Project Section ################################# -->
     </main>
     <!-- ############################## End Main Area ############################## -->
 
@@ -116,5 +394,11 @@
     <script src="./js/jquery.3.6.0.js"></script>
     <!--Bootstrap JS file -->
     <script src="./js/bootstrap.min.js"></script>
+    <!-- Isotope JS library -->
+    <script src="./vendor/isotope/isotope.min.js"></script>
+    <!-- Magnific-Popup script file -->
+    <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+    <!-- custom JS file0 -->
+    <script src="./js/main.js"></script>
 </body>
 </html>

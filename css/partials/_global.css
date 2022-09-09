@@ -72,3 +72,21 @@ p.para {
 .font-overpass {
     font-family: var(--overpass);
 }
+
+.title-h1 {
+    font: normal bold 39px/40px var(--overpass);
+}
+
+.navbar_fixed {
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0;
+    right: 0;
+    background: white;
+    box-shadow: var(--box-shadow);
+    z-index: 5;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+} 

@@ -291,3 +291,11 @@ footer.footer-area .social a:hover > i {
     color: var(--primary-color);
 }
 /* End Footer Area */
+
+/* Start Certifications Section */
+/* End Certifications Section */
+
+.site-certifications .certs-section {
+    font-family: var(--overpass);
+    font-weight: 900;
+}

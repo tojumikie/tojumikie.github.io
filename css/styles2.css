@@ -5,7 +5,7 @@
 /* CSS Variables */
 @import url(./partials/_variables.css);
 
-/* Begin Navication Bar Area */
+/* Begin Navigation Bar Area */
 .header-area .main-menu .navbar .navbar-brand {
     font-family: 'Overpass Mono', monospace;
     padding: 0 2rem 0 2rem;
@@ -20,13 +20,24 @@
     font-family: 'Overpass Mono', monospace;
     font-weight: 900;
 }
+.header-area .main-menu .navbar-nav .active a{
+    background: linear-gradient(90deg, #ff7f00 0%, #ff7f00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.header-area .main-menu .navbar-nav a:hover{
+    background: linear-gradient(90deg, #ff7f00 0%, #ff7f00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
 /* End Navigation Bar Area */
 /* Begin Experience Area */
 .experience-main .experience-section .container {
     font: normal 500 16px/25px 'Overpass Mono', monospace;
 }
 /* End Experience Area */
-/* Begin Footer Area */
 /* Start Footer Area */
 footer.footer-area {
     padding: 1rem 0;

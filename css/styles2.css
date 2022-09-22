@@ -38,6 +38,11 @@
     font: normal 500 16px/25px 'Overpass Mono', monospace;
 }
 /* End Experience Area */
+/* Begin Education Area */
+.education-main .education-section .container {
+    font: normal 500 16px/25px 'Overpass Mono', monospace;
+}
+/* End Education Area */
 /* Start Footer Area */
 footer.footer-area {
     padding: 1rem 0;

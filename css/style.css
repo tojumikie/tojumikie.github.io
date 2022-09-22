@@ -25,7 +25,13 @@
 
     /* color: var(--title-color); */
 }
+.header_area .main-menu .nav-item .dropdown-menu{
+    font-weight: 900;
+    font-family: var(--overpass);
+    /* font-family: 'NanumGothicCoding', monospace; */
 
+    /* color: var(--title-color); */
+}
 .header_area .main-menu .navbar-nav .active a{
     background: var(--gradient-color);
     -webkit-background-clip: text;

@@ -60,3 +60,8 @@ footer.footer-area .social a:hover > i {
     color: var(--primary-color);
 }
 /* End Footer Area */
+/* Begin Cognixia Capstone Project (2022) Area */
+.cognixia-capstone-main .cognixia-capstone-section .container {
+    font: normal 500 16px/25px 'Overpass Mono', monospace;
+}
+/* End Cognixia Capstone Project (2022) Area */

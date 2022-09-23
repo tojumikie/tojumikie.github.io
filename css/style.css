@@ -133,7 +133,7 @@
    display: block;
 }
 .site-main .brand-area .experience-area .years-area {
-    background: url(../img/client-info-bg.png) no-repeat 45px 20px;
+    /* background: url(../img/client-info-bg.png) no-repeat 45px 20px; */
     padding: 2rem 0;
     width: 40rem;
     height: 18rem;
@@ -177,7 +177,7 @@
     background: rgba(248, 252, 253, 0.973);
     padding: 2rem 0rem;
     width: 16rem;
-    margin: 5rem .5rem;
+    margin: 1rem .5rem;
     transition: box-shadow .7s ease;
 }
 .site-main > .services-area .services:hover {

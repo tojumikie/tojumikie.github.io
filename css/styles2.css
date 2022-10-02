@@ -43,6 +43,11 @@
     font: normal 500 16px/25px 'Overpass Mono', monospace;
 }
 /* End Education Area */
+/* Begin Skills Area */
+.skills-main .skills-section .container {
+    font: normal 500 16px/25px 'Overpass Mono', monospace;
+}
+/* End Skills Area */
 /* Start Footer Area */
 footer.footer-area {
     padding: 1rem 0;

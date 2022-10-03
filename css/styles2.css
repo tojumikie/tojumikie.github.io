@@ -47,6 +47,9 @@
 .skills-main .skills-section .container {
     font: normal 500 16px/25px 'Overpass Mono', monospace;
 }
+.skills-main .skills-section .container {
+    padding-top: 2%;
+}
 /* End Skills Area */
 /* Start Footer Area */
 footer.footer-area {

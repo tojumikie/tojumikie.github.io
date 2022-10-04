@@ -15,10 +15,12 @@
 .header-area .main-menu .nav-item .nav-link {
     font-family: 'Overpass Mono', monospace;
     font-weight: 900;
+    color: #141313;
 }
 .header-area .main-menu .nav-item .dropdown-menu {
     font-family: 'Overpass Mono', monospace;
     font-weight: 900;
+    color: #141313;
 }
 .header-area .main-menu .navbar-nav .active a{
     background: linear-gradient(90deg, #ff7f00 0%, #ff7f00 100%);
@@ -68,8 +70,13 @@ footer.footer-area .social a:hover > i {
     color: var(--primary-color);
 }
 /* End Footer Area */
-/* Begin Cognixia Capstone Project (2022) Area */
+/* Begin Cognixia Capstone Project (2022) Page */
 .cognixia-capstone-main .cognixia-capstone-section .container {
     font: normal 500 16px/25px 'Overpass Mono', monospace;
 }
-/* End Cognixia Capstone Project (2022) Area */
+/* End Cognixia Capstone Project (2022) Page */
+/* Begin About Me Page */
+.site-main .about-area .about-title h2 > span {
+    font: normal bold 49px/60px 'Overpass Mono', monospace;
+}
+/* End About Me Page */

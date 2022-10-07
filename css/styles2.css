@@ -74,6 +74,9 @@ footer.footer-area .social a:hover > i {
 .cognixia-capstone-main .cognixia-capstone-section .container {
     font: normal 500 16px/25px 'Overpass Mono', monospace;
 }
+.cognixia-capstone-main .cognixia-capstone-section .container {
+    padding-top: 2%;
+}
 /* End Cognixia Capstone Project (2022) Page */
 /* Begin About Me Page */
 .site-main .about-area .about-title h2 > span {

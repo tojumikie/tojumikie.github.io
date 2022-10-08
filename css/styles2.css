@@ -38,13 +38,21 @@
 /* Begin Experience Area */
 .experience-main .experience-section .container {
     font: normal 500 16px/25px 'Overpass Mono', monospace;
+    padding-top: 2%;
 }
 /* End Experience Area */
 /* Begin Education Area */
 .education-main .education-section .container {
     font: normal 500 16px/25px 'Overpass Mono', monospace;
+    padding-top: 2%;
 }
 /* End Education Area */
+/* Begin Certifications Area */
+.site-certifications .certs-section .container {
+    font: normal 500 16px/25px 'Overpass Mono', monospace;
+    padding-top: 2%;
+}
+/* End Certifications Area */
 /* Begin Skills Area */
 .skills-main .skills-section .container {
     font: normal 500 16px/25px 'Overpass Mono', monospace;

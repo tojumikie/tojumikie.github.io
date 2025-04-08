@@ -76,8 +76,17 @@
 }
 
 .site-main .site-banner .banner-image > img{
-    padding: 4rem 0;
+    /* padding: 4rem 0; */
     /* width: 30rem; */
+    /* position: absolute; */
+    position: relative;
+    top: 25%;
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* height: 200px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* vertical-align: middle; */
 }
 
 
